@@ -6,6 +6,16 @@ function print_color(){
             ;;
         "red") COLOR="\033[0;31m"
             ;;
+        "yellow") COLOR= "\033[0;33m"
+            ;;
+        "blue") COLOR= "\033[0;34m"
+            ;;
+        "purple") COLOR= "\033[0;35m"
+            ;;
+        "cyan") COLOR= "\033[0;36m"
+            ;;
+        "white") COLOR= "\033[0;37m"
+            ;;
         "*") COLOR="\033[0m"
             ;;
     esac
